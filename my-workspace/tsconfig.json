@@ -14,7 +14,8 @@
     "paths": {
       "my-lib": [
         "dist/my-lib/my-lib",
-        "dist/my-lib"
+        "dist/my-lib",
+        "projects/my-lib/src/public-api"
       ]
     },
     "declaration": false,

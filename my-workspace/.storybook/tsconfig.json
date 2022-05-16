@@ -4,6 +4,9 @@
     "types": [
       "node"
     ],
+    "paths": {
+      "my-lib": ["projects/my-lib/src/public-api"]
+    },
     "allowSyntheticDefaultImports": true
   },
   "exclude": [
@@ -13,7 +16,8 @@
   ],
   "include": [
     "../src/**/*",
-    "../projects/**/*"
+    "../projects/**/*",
+    "../stories/**/*"
   ],
   "files": [
     "./typings.d.ts"
